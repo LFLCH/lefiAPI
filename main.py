@@ -11,7 +11,7 @@ origins = [
     "https://localhost.tiangolo.com",
     "http://localhost",
     "http://localhost:3000",
-    "https://lefiorga.github.io"
+    "https://lflch.github.io"
 ]
 
 app.add_middleware(
