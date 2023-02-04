@@ -1,0 +1,191 @@
+{
+    "header": "Léo FILOCHE : 4th year student in computer science (M1: ESIR – Université de Rennes, France) looking for a summer internship (June - September 2023)",
+    "categories" : [
+        {
+            "name": "Education",
+            "articles" : [
+                {
+                    "title":"Engineering degree in computer science",
+                    "date":"2021 → 2024",
+                    "content":"Courses in CS and SW engineering at ESIR, Université de Rennes. (MSc degree equivalent)"
+                },
+                {
+                    "title":"Bachelor of Computer Science",
+                    "date":"2019 → 2021",
+                    "content":"General training in CS at Université de Rennes 1 (ISTIC) – Years 1 & 2"
+                }
+            ]
+        },
+        {
+            "name":"Professional Experience",
+            "articles" : [
+                {
+                    "title":"Internship in a research laboratory",
+                    "place":"IRISA Rennes",
+                    "date":"Summer 2022 – 2 months",
+                    "content":"Participation to the development of an opensource webapp of exam sheet correction (GitHub). Several missions: page of statistics (Angular), OCR for MCQ analyze (OpenCV Python), and creation of an API to link it to the app (FastAPI ~ Swagger based)."
+                },
+                {
+                    "title":"Administrative assistant",
+                    "place":"Lycée Sévigné",
+                    "date":"July 2021 – 2 weeks",
+                    "content":"Clerical work for the organization of the high school diploma: reception, notetaking, archiving…"
+                }
+            ]
+        },
+        {
+            "name":"Noteworthy projects",
+            "articles" : [
+                {
+                    "title":"While Compiler",
+                    "place": "ESIR",
+                    "date" : "October 2022 → January 2023 – 3 months",
+                    "teamsize" : 3,
+                    "content" : "Creation of a compiler for a basic language called 'while'. Implementation in Java of the toolchain's main phases to generate and run an executable (in C++) from a .while file. "
+                },
+                {
+                    "title":"Microservice based web app",
+                    "place":"ESIR",
+                    "date":"January 2023 – 1 month",
+                    "teamsize": 2,
+                    "content":"Creation of a web app with a backend (NestJS) and a frontend (Angular), and division into microservices with Docker. Addition of other microservices such as a mailing."
+                },
+                {
+                    "title":"Ant colony simulation",
+                    "place":"ESIR",
+                    "date":"May 2022 – 1 month",
+                    "teamsize":1,
+                    "content":"Development of a simplified multi-agent system in C++ simulating the behavior of ants emitting pheromones to help their congeners in their food search."
+                },
+                {
+                    "title":"If you want to know more about my coding background, I recommend you to go on my school-projects page on GitHub."
+                }
+            ]
+        },
+        {
+            "name":"Technical skills",
+            "articles" : [
+                {
+                    "title":"OOP",
+                    "tags": ["java","c++"]
+                },
+                {
+                    "title":"Imperative",
+                    "tags":["python","bash"]
+                },
+                {
+                    "title":"Functional",
+                    "tags":["scala"]
+                },
+                {
+                    "title":"Relational",
+                    "tags":["SQL"]
+                },
+                {
+                    "title":"Containerization",
+                    "tags":["docker"]
+                },
+                {
+                    "title":"Version control",
+                    "tags":["Git : GitHub/Gitlab"]
+                },
+                {
+                    "title":"AI basics",
+                    "tags":["Python : Scikit-learn, Pandas"]
+                },
+                {
+                    "title":"WEB",
+                    "tags":["HTML5",  "CSS",  "JavaScript",  "Angular",  "NestJS"]
+                }
+            ]
+        },
+        {
+            "name":"Languages",
+            "articles":[
+                {
+                    "title":"French",
+                    "tags":["Native speaker"]
+                },
+                {
+                    "title":"Spanish",
+                    "tags":["B1 level"]
+                },
+                {
+                    "title":"English",
+                    "tags":["B2 level : TOEIC ~ 860, CLES"]
+                }
+            ]
+        },
+        {
+            "name":"Events",
+            "articles":[
+                {
+                    "title":"Orange-Nokia Challenge",
+                    "place":"Paris (Orange Gardens)",
+                    "date":"December 13th, 2022",
+                    "teamsize":5,
+                    "content":"Finalists of this innovation challenge. The edition's theme was on Digital technologies for Inclusion."
+                },
+                {
+                    "title":"Break the code (Sopra Steria)",
+                    "place":"Rennes (PNRB)",
+                    "date":"November 17th, 2022",
+                    "teamsize":3,
+                    "content":"Programming & algorithmic exercises for 1h30."
+                },
+                {
+                    "title":"Model United Nations (RILMUN)",
+                    "date":"March 29th, 2018",
+                    "place":"Rennes",
+                    "content":"Simulation of an ambassador's role, using debate and vote to solve a hypothetical crisis."
+                }
+            ]
+        },
+        {
+            "name":"Hobbies",
+            "articles": [
+                {
+                    "title":"Basketball",
+                    "date":"Since 2010",
+                    "content":"For 12 years. In club and university"
+                },
+                {
+                    "title":"Trumpet",
+                    "date":"2009 → 2018",
+                    "content":"Individual courses (9 years) and orchestra (7 years)"
+                }
+            ]
+        },
+        {
+            "name":"Personal information",
+            "articles":[
+                {
+                    "title":"Do not hesitate to contact me, I would be delighted to discuss with you  !"
+                },
+                {
+                    "title":"Phone Number",
+                    "content":"(+33) 7 60 25 53 77"
+                },
+                {
+                    "title":"Place",
+                    "content":"Rennes, France"
+                },
+                {
+                    "title":"Driver's license"
+                },
+                {
+                    "title":"linkedin",
+                    "content":"@leofiloche"
+                },
+                {
+                    "title":"GitHub",
+                    "content":"@LFLCH"
+                },
+                {
+                    "title":"email",
+                    "content":"leo.filoche@etudiant.univ-rennes1.fr"
+                }
+            ]
+        }
+    ]
+}

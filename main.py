@@ -1,7 +1,9 @@
-from fastapi import FastAPI
+import json
+from fastapi import FastAPI, Response
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 
-# run in command line with uvicorn main:app
+# run in command line with uvicorn main:app --reload
 # export with deta (https://www.deta.sh/)
 # to update changes : deta deploy  | deta watch 
 app = FastAPI()
@@ -26,7 +28,8 @@ app.add_middleware(
 def read_root():
     return {
         "welcome":"happy to welcome you on lefi's API",
-        "bienvenue":"ravi que vous soyez arrivés jusqu'ici !"
+        "bienvenue":"ravi que vous soyez arrivés jusqu'ici !",
+        "auteur":"léo filoche"
     }
 
 @app.get("/about")
@@ -37,21 +40,19 @@ def read_about():
         }
 @app.get("/resume")
 def read_resume():
-    return {
-        "header":"I am currently looking for a summer internship",
-        "categories":[
-         {
-            "name":"Education",
-            "articles":[
-                {
-                    "title":"Engineering degree in computer science",
-                    "dates":"2021->2024",
-                    "content":"Courses in Computer Science at Université de Rennes 1"
-                }
-            ]
-         }   
-        ]
-    }
+    with open('cv.json', encoding='utf-8') as f:
+        data = json.load(f)
+    return data
+
+class FilePDFResponse(Response):
+    media_type = "application/json"
+
+@app.get("/resume/pdf",responses={200:{
+    "description":"The resume, on PDF format",
+    "content":{"application/pdf":{"example":"No example to show"}}
+    }})
+async def read_resume_pdf():
+    return FileResponse("cv.pdf",media_type="application/pdf",filename="cv.pdf")
 
 @app.get("/projects")
 def read_projects():
