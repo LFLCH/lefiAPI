@@ -58,9 +58,20 @@ async def read_resume_pdf():
 def read_projects():
     return  [
         {
+           "name":"School Projects",
+           "link":"https://github.com/LFLCH/school-projects",
+           "description":"An overview of my most noteworthy school projects."
+        },
+        {
+            "name":"Brain tumor",
+            "link":"https://github.com/FenrirWolf4566/brain-tumor",
+            "description":"[IN PROGRESS] A web viewer for brain tumors where predictions can be done thanks to AI"
+        },
+        {
             "name":"HeroesQuest",
             "languages":["Java"],
             "link":"https://github.com/LFLCH/HeroesQuest",
+            "description":"[NOT PUBLIC YET] A small 2D adventure game",
             "members":[
                 {
                 "name":"Jérémy Bindel",
@@ -68,30 +79,30 @@ def read_projects():
                 }
             ]
         },
-        {
-            "name":"While Compiler",
-            "languages":["Java","Antlr","C++","bash"],
-            "link":"https://github.com/LFLCH/school-projects/tree/main/whilecompiler",
-            "members":[
-                {
-                "name":"Bastien Faisant",
-                "link": "https://github.com/Unstery"
-                },
-                {
-                 "name":"Kilian Cornec",
-                 "link":"https://github.com/Kali-ki"   
-                }
-            ]
-        },
-        {
-            "name":"Administration",
-            "languages":["Angular","NestJS","Quarkus","Docker"],
-            "link":"https://github.com/LFLCH/school-projects/tree/main/administration",
-            "members":[
-                {
-                "name":"Bastien Faisant",
-                "link": "https://github.com/Unstery"
-                }
-            ]
-        }
+        # {
+        #     "name":"While Compiler",
+        #     "languages":["Java","Antlr","C++","bash"],
+        #     "link":"https://github.com/LFLCH/school-projects/tree/main/whilecompiler",
+        #     "members":[
+        #         {
+        #         "name":"Bastien Faisant",
+        #         "link": "https://github.com/Unstery"
+        #         },
+        #         {
+        #          "name":"Kilian Cornec",
+        #          "link":"https://github.com/Kali-ki"   
+        #         }
+        #     ]
+        # },
+        # {
+        #     "name":"Administration",
+        #     "languages":["Angular","NestJS","Quarkus","Docker"],
+        #     "link":"https://github.com/LFLCH/school-projects/tree/main/administration",
+        #     "members":[
+        #         {
+        #         "name":"Bastien Faisant",
+        #         "link": "https://github.com/Unstery"
+        #         }
+        #     ]
+        # }
     ]
